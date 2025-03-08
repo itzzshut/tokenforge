@@ -1,0 +1,83 @@
+/* GENERATED FILE -- do not edit by hand. Run `tokenforge build` to regenerate. */
+/* Source: acme-design-system@1.0.0 */
+
+:root,
+[data-theme='light'] {
+  --tf-color-background: #ffffff;
+  --tf-color-border: #e2e8f0;
+  --tf-color-danger: #dc2626;
+  --tf-color-danger-foreground: #ffffff;
+  --tf-color-foreground: #0f172a;
+  --tf-color-muted: #64748b;
+  --tf-color-primary: #2563eb;
+  --tf-color-primary-foreground: #ffffff;
+  --tf-color-success: #16a34a;
+  --tf-color-surface: #f1f5f9;
+  --tf-space-2xl: 48px;
+  --tf-space-3xl: 64px;
+  --tf-space-lg: 24px;
+  --tf-space-md: 16px;
+  --tf-space-sm: 8px;
+  --tf-space-xl: 32px;
+  --tf-space-xs: 4px;
+  --tf-font-family-mono: JetBrains Mono, ui-monospace, monospace;
+  --tf-font-family-sans: Inter, system-ui, sans-serif;
+  --tf-font-size-2xl: 24px;
+  --tf-font-size-3xl: 30px;
+  --tf-font-size-base: 16px;
+  --tf-font-size-lg: 18px;
+  --tf-font-size-sm: 14px;
+  --tf-font-size-xl: 20px;
+  --tf-font-size-xs: 12px;
+  --tf-font-weight-bold: 700;
+  --tf-font-weight-medium: 500;
+  --tf-font-weight-regular: 400;
+  --tf-font-weight-semibold: 600;
+  --tf-line-height-normal: 1.5;
+  --tf-line-height-relaxed: 1.75;
+  --tf-line-height-tight: 1.2;
+  --tf-letter-spacing-normal: 0em;
+  --tf-letter-spacing-tight: -0.01em;
+  --tf-letter-spacing-wide: 0.02em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --tf-color-background: #0b0f19;
+    --tf-color-border: #1f2937;
+    --tf-color-danger: #f87171;
+    --tf-color-danger-foreground: #0b0f19;
+    --tf-color-foreground: #f8fafc;
+    --tf-color-muted: #94a3b8;
+    --tf-color-primary: #60a5fa;
+    --tf-color-primary-foreground: #0b0f19;
+    --tf-color-success: #4ade80;
+    --tf-color-surface: #111827;
+  }
+}
+
+[data-theme='dark'] {
+  --tf-color-background: #0b0f19;
+  --tf-color-border: #1f2937;
+  --tf-color-danger: #f87171;
+  --tf-color-danger-foreground: #0b0f19;
+  --tf-color-foreground: #f8fafc;
+  --tf-color-muted: #94a3b8;
+  --tf-color-primary: #60a5fa;
+  --tf-color-primary-foreground: #0b0f19;
+  --tf-color-success: #4ade80;
+  --tf-color-surface: #111827;
+}
+
+[data-contrast='high'] {
+  --tf-color-background: #000000;
+  --tf-color-border: #ffffff;
+  --tf-color-danger: #ff1a1a;
+  --tf-color-danger-foreground: #000000;
+  --tf-color-foreground: #ffffff;
+  --tf-color-muted: #e2e8f0;
+  --tf-color-primary: #1d4ed8;
+  --tf-color-primary-foreground: #ffffff;
+  --tf-color-success: #00d924;
+  --tf-color-surface: #000000;
+}

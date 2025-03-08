@@ -1,0 +1,4 @@
+3 drift entries detected:
+  ~ colors.primary.light: #2563eb -> #1d4ed8
+  + colors.warning = #f59e0b
+  - spacing.2xl (was 48px)
