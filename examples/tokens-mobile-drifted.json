@@ -1,0 +1,142 @@
+{
+  "$schema": "../src/schema.ts",
+  "name": "acme-design-system-mobile-snapshot",
+  "version": "1.0.0",
+  "colors": {
+    "background": {
+      "light": "#ffffff",
+      "dark": "#0b0f19",
+      "highContrast": "#000000",
+      "description": "Page/app background"
+    },
+    "foreground": {
+      "light": "#0f172a",
+      "dark": "#f8fafc",
+      "highContrast": "#ffffff",
+      "description": "Primary text color"
+    },
+    "surface": {
+      "light": "#f1f5f9",
+      "dark": "#111827",
+      "highContrast": "#000000",
+      "description": "Card/panel background"
+    },
+    "primary": {
+      "light": "#1d4ed8",
+      "dark": "#60a5fa",
+      "highContrast": "#1d4ed8",
+      "description": "Primary brand/action color"
+    },
+    "primaryForeground": {
+      "light": "#ffffff",
+      "dark": "#0b0f19",
+      "highContrast": "#ffffff",
+      "description": "Text/icon color on top of primary"
+    },
+    "muted": {
+      "light": "#64748b",
+      "dark": "#94a3b8",
+      "highContrast": "#e2e8f0",
+      "description": "Secondary/low-emphasis text"
+    },
+    "danger": {
+      "light": "#dc2626",
+      "dark": "#f87171",
+      "highContrast": "#ff1a1a",
+      "description": "Destructive actions and error states"
+    },
+    "dangerForeground": {
+      "light": "#ffffff",
+      "dark": "#0b0f19",
+      "highContrast": "#000000",
+      "description": "Text/icon color on top of danger"
+    },
+    "success": {
+      "light": "#16a34a",
+      "dark": "#4ade80",
+      "highContrast": "#00d924",
+      "description": "Success/confirmation states"
+    },
+    "border": {
+      "light": "#e2e8f0",
+      "dark": "#1f2937",
+      "highContrast": "#ffffff",
+      "description": "Hairline borders and dividers"
+    },
+    "warning": {
+      "light": "#f59e0b",
+      "dark": "#fbbf24"
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "3xl": "64px"
+  },
+  "typography": {
+    "fontFamilies": {
+      "sans": "Inter, system-ui, sans-serif",
+      "mono": "JetBrains Mono, ui-monospace, monospace"
+    },
+    "fontSizes": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "lg": "18px",
+      "xl": "20px",
+      "2xl": "24px",
+      "3xl": "30px"
+    },
+    "fontWeights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "lineHeights": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.75
+    },
+    "letterSpacings": {
+      "tight": "-0.01em",
+      "normal": "0em",
+      "wide": "0.02em"
+    }
+  },
+  "contrastPairs": [
+    {
+      "name": "body-text-on-background",
+      "foreground": "foreground",
+      "background": "background",
+      "level": "AA"
+    },
+    {
+      "name": "muted-text-on-background",
+      "foreground": "muted",
+      "background": "background",
+      "level": "AA"
+    },
+    {
+      "name": "primary-button",
+      "foreground": "primaryForeground",
+      "background": "primary",
+      "level": "AA"
+    },
+    {
+      "name": "danger-button",
+      "foreground": "dangerForeground",
+      "background": "danger",
+      "level": "AA"
+    },
+    {
+      "name": "text-on-surface",
+      "foreground": "foreground",
+      "background": "surface",
+      "level": "AA"
+    }
+  ]
+}
